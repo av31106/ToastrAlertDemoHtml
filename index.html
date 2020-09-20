@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Toastr</title>
+    <link href="content/toastr.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <a href="https://codeseven.github.io/toastr/demo.html">https://codeseven.github.io/toastr/demo.html</a>
+    </div>
+<script src="Scripts/jquery-1.6.3.min.js"></script>
+<script src="Scripts/toastr.min.js"></script>
+    <script>
+        $(function () {
+            toastr.error("Hello New Toastr User !", "Error", { timeOut: 5000, closeButton: true, progressBar: true })
+            toastr.info("Hello New Toastr User !", "Info", { timeOut: 6000, closeButton: true, progressBar: true })
+            toastr.warning("Hello New Toastr User !", "Warning", { timeOut: 7000, closeButton: true, progressBar: true })
+            toastr.success("Hello New Toastr User !", "Sussess", { timeOut: 8000, closeButton: true, progressBar: true })
+        });
+    </script>
+</body>
+</html>
